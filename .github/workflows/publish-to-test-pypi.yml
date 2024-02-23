@@ -19,6 +19,9 @@ jobs:
   build-n-publish:
     # The type of runner that the job will run on
     name: Build and published Python distribution to PyPI and TestPyPI
+    permissions:
+      contents: read
+      id-token: write
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
