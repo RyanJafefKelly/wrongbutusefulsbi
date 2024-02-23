@@ -1,7 +1,7 @@
 from setuptools import setup
 
-with open("README.rst", encoding='utf8') as fh:
-    long_description = fh.read()
+# with open("README.rst", encoding='utf8') as fh:
+    # long_description = fh.read()
 
 with open('requirements.txt', 'r') as f:
     requirements = f.read().splitlines()
