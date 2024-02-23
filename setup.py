@@ -10,8 +10,8 @@ with open('requirements.txt', 'r') as f:
 setup(
     name='wrongbutusefulsbi',
     version='0.0.1',
-    long_description=long_description,
-    long_description_content_type="text/x-rst",
+    # long_description=long_description,
+    # long_description_content_type="text/x-rst",
     author='Ryan Kelly',
     author_email='ryan@kiiii.com',
     url='https://github.com/RyanJafefKelly/wrongbutusefulsbi',
