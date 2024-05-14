@@ -20,8 +20,6 @@ setup(
     author_email='ryan@kiiii.com',
     long_description=long_description,
     long_description_content_type="text/x-rst",
-    author='Ryan Kelly',
-    author_email='ryan@kiiii.com',
     url='https://github.com/RyanJafefKelly/wrongbutusefulsbi',
     install_requires=requirements,
     license='GPLv3',
