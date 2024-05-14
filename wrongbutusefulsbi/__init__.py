@@ -3,5 +3,5 @@
 
 """TODO: PACKAGE DESCRIPTION
 """
-
-from . import examples
+# make sure __version_ is on the last non-empty line (read by setup.py)
+__version__ = "0.0.6"

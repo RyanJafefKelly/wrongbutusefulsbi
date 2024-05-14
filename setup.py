@@ -6,10 +6,12 @@ with open("README.rst", encoding='utf8') as fh:
 with open('requirements.txt', 'r') as f:
     requirements = f.read().splitlines()
 
+# read version number
+__version__ = open('wrongbutusefulsbi/__init__.py').readlines()[-1].split(' ')[-1].strip().strip("'\"")
 
 setup(
     name='wrongbutusefulsbi',
-    version='0.0.5',
+    version=__version__,
     long_description=long_description,
     long_description_content_type="text/x-rst",
     author='Ryan Kelly',
