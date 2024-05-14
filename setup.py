@@ -9,7 +9,7 @@ with open('requirements.txt', 'r') as f:
 
 setup(
     name='wrongbutusefulsbi',
-    version='0.0.3',
+    version='0.0.4',
     long_description=long_description,
     long_description_content_type="text/x-rst",
     author='Ryan Kelly',
