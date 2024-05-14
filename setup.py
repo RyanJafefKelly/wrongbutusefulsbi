@@ -16,6 +16,8 @@ setup(
     version=__version__,
     packages=packages,
     include_package_data=True,
+    author='Ryan Kelly',
+    author_email='ryan@kiiii.com',
     long_description=long_description,
     long_description_content_type="text/x-rst",
     author='Ryan Kelly',
@@ -24,4 +26,5 @@ setup(
     install_requires=requirements,
     license='GPLv3',
     python_requires='>=3.7',
+    zip_safe=False,
 )
