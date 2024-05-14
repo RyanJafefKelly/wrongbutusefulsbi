@@ -7,3 +7,4 @@ jaxlib>=0.1.56
 pandas>=1.0.1
 seaborn>=0.11.1
 arviz>=0.11.0
+diffrax>=0.1.0
