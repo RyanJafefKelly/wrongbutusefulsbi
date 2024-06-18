@@ -1,0 +1,2 @@
+List of potential examples:
+- The galaxy data of Postman et al. (1986) and Roeder (1990) (from Matsubara, 2022 - this could be useful if consider model misspecification and nonparametric density estimation.
